@@ -166,7 +166,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "Haskelody-0.1.0.0-G2S4gIlfdKg2CsaA69F7Yq-Haskelody-exe"
+#define CURRENT_COMPONENT_ID "Haskelody-0.1.0.0-3bD77lhc3YFIrNIKPFnNjW-Haskelody-exe"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

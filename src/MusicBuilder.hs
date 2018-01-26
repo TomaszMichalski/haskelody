@@ -107,6 +107,12 @@ scalePitched _ [] = []
 scalePitched octave (x:[]) = [(x,octave)]
 scalePitched octave (x:xs) = [(x,octave)] ++ (if(head xs < x) then (scalePitched (octave+1) xs) else (scalePitched octave xs))
 
+{- |
+Funkcja usuwaj¹ca oktawê z listy nut
+-}
+dropPitch :: [Pitch] -> [PitchClass]
+dropPitch xs = [ x | (x,octave) <- xs]
+
 
 scalePitchedN :: Int -> [PitchClass] -> [Pitch]
 scalePitchedN n notes

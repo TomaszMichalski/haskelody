@@ -61,3 +61,18 @@ test-suite Haskelody-test
   other-modules:
       Paths_Haskelody
   default-language: Haskell2010
+  
+test-suite Haskelody-quickcheck
+  type: exitcode-stdio-1.0
+  main-is: QCTest.hs
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Haskelody
+    , base >=4.7 && <5
+    , QuickCheck
+    , Euterpea
+  other-modules:
+      Paths_Haskelody
+  default-language: Haskell2010

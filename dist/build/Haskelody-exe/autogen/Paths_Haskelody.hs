@@ -30,10 +30,10 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "C:\\Users\\Tomek\\AppData\\Roaming\\cabal\\bin"
-libdir     = "C:\\Users\\Tomek\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-8.2.1\\Haskelody-0.1.0.0-G2S4gIlfdKg2CsaA69F7Yq-Haskelody-exe"
+libdir     = "C:\\Users\\Tomek\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-8.2.1\\Haskelody-0.1.0.0-3bD77lhc3YFIrNIKPFnNjW-Haskelody-exe"
 dynlibdir  = "C:\\Users\\Tomek\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-8.2.1"
 datadir    = "C:\\Users\\Tomek\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-8.2.1\\Haskelody-0.1.0.0"
-libexecdir = "C:\\Users\\Tomek\\AppData\\Roaming\\cabal\\Haskelody-0.1.0.0-G2S4gIlfdKg2CsaA69F7Yq-Haskelody-exe\\x86_64-windows-ghc-8.2.1\\Haskelody-0.1.0.0"
+libexecdir = "C:\\Users\\Tomek\\AppData\\Roaming\\cabal\\Haskelody-0.1.0.0-3bD77lhc3YFIrNIKPFnNjW-Haskelody-exe\\x86_64-windows-ghc-8.2.1\\Haskelody-0.1.0.0"
 sysconfdir = "C:\\Users\\Tomek\\AppData\\Roaming\\cabal\\etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath

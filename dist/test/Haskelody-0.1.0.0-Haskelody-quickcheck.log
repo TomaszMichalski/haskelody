@@ -1,0 +1,8 @@
+Test suite Haskelody-quickcheck: RUNNING...
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
++++ OK, passed 100 tests.
+Test suite Haskelody-quickcheck: PASS
+Test suite logged to: dist\test\Haskelody-0.1.0.0-Haskelody-quickcheck.log
