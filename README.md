@@ -1,4 +1,6 @@
 # Haskelody
-Haskell Programming project 
-Computer Science
-3rd semester
+Haskell Programming project <br />
+Computer Science <br />
+3rd semester <br />
+Created with <br />
+https://github.com/szymonln
