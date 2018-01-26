@@ -1,0 +1,63 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: f29950305ce2589d981d9e3c4b1de40eb0df82a93c4d0d0845fe51f1a9687099
+
+name:           Haskelody
+version:        0.1.0.0
+description:    Simple music operations in Haskell
+author:         Tomasz Michalski Szymon Lichoń
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    ChangeLog.md
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/Haskelody
+
+library
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5,
+      Euterpea > 2
+  exposed-modules:
+      MusicBuilder,
+      Player
+  other-modules:
+      Paths_Haskelody
+  default-language: Haskell2010
+
+executable Haskelody-exe
+  main-is: Main.hs
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Haskelody
+    , base >=4.7 && <5
+    , Euterpea > 2
+  other-modules:
+      Paths_Haskelody
+  default-language: Haskell2010
+
+test-suite Haskelody-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Haskelody
+    , base >=4.7 && <5
+    , HUnit
+    , Euterpea
+  other-modules:
+      Paths_Haskelody
+  default-language: Haskell2010
